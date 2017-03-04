@@ -1,0 +1,19 @@
+{
+  "name": "writing",
+  "version": "1.0.0",
+  "description": "My personal writing",
+  "main": "index.js",
+  "scripts": {
+    "new": "node post.js"
+  },
+  "repository": "git@github.com:kevin940726/writing.git",
+  "author": "kevin940726 <kevin830726@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^1.1.3",
+    "dateformat": "^2.0.0",
+    "dedent": "^0.7.0",
+    "inquirer": "^3.0.6",
+    "sanitize-filename": "^1.6.1"
+  }
+}
