@@ -14,7 +14,7 @@ function createTemplate({
     title: '${title}'
     date: ${dateFormat(new Date(), 'yyyy-mm-dd hh:MM:ss')}
     layout: Post
-    hero: ${hero}
+    ${hero ? `hero: ${hero}` : ''}
     ---
   `;
 }
