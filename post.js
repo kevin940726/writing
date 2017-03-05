@@ -33,7 +33,7 @@ inquirer.prompt([
 ]).then(answers => {
   const template = createTemplate(answers);
 
-  const filename = `${sanitize(answers.title)}.md`;
+  const filename = `${sanitize(answers.title.replace(/\s/g, '-'))}.md`;
 
   fs.writeFile(filename, template, 'utf8', (err) => {
     if (err) {
