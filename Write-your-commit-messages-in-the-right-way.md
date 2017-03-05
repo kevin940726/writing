@@ -84,7 +84,7 @@ echo '{ "path": "emoji-cz" }' > ~/.czrc
 ```
 
 完成後往後的 `commit` 都用 `git cz` 來取代原本的 `git commit` 指令。
-```
+```text
 > git cz
 ? Select the type of change that you're committing: (Use arrow keys)
 ❯ ✨  Feat:      A new feature
